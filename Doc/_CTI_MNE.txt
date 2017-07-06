@@ -1,0 +1,49 @@
+﻿ATmega1284P:
+============
+Sketch uses 34,014 bytes (26%) of program storage space. Maximum is 130,048 bytes.
+Global variables use 2,805 bytes (17%) of dynamic memory, leaving 13,579 bytes for local variables. Maximum is 16,384 bytes.
+
+Modules: (every modul has particular timer)
+BME280 - function
+OLED - function
+GPS - function
+SD Card - function
+CRT [Clock Real Time] - Not OK
+-----------------------------
+Libraries:
+BME280
+OzOLED
+TinyGPS
+SdFat
+-----------------------------
+Zapojení:
+BME280: teplota, tlak, vlhkost
+- Vcc - do 3.3V
+- GND - do GND
+- SCL - D16 (328P: A5)
+- SDA - D17 (328P: A4)
+
+Oled 0.96" 128x64:
+- Vcc - do 3.3V
+- GND - do GND
+- SCL - D16 (328P: A5)
+- SDA - D17 (328P: A4)
+
+GPS:
+- Vcc - do 3.3V
+- Rx  - D2 (328P: D2)
+- Tx  - D3 (328P: D3)
+- GND - do GND
+gpsSerial(RxpinArduino,TxPinArduino)
+// TxPinGPS = 3 -> RxArduino (Tx -> Rx)
+// RxPinGPS = 2 -> TxArduino (Rx <- Tx)
+
+
+SD Card:
+- 3.3V - do 3.3V
+- GND  - do GND
+- Vcc  - nezapojeno (je pro 5V)
+- MISO - D6 (328P: D12)
+- MOSI - D5 (328P: D11)
+- SCK  - D7 (328P: D13)
+- CS   - D4 (328P: D10) (Chip Select)

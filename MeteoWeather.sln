@@ -1,0 +1,147 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MeteoWeather", "MeteoWeather.vcxproj", "{C5F80730-F44F-4478-BDAE-6634EFC2CA88}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doc", "Doc", "{9C4E58EB-8298-471C-8357-FD9ADC07299B}"
+	ProjectSection(SolutionItems) = preProject
+		Doc\_CTI_MNE.txt = Doc\_CTI_MNE.txt
+		Doc\Data21.csv = Doc\Data21.csv
+		Doc\Data26.log = Doc\Data26.log
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libraries", "libraries", "{A96FFD53-4F63-45AE-AEC7-E2D4A9A0F306}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TinyGPS-master", "TinyGPS-master", "{7ECD0BF6-1117-4EEA-8E67-44922D100C10}"
+	ProjectSection(SolutionItems) = preProject
+		libraries\TinyGPS-master\keywords.txt = libraries\TinyGPS-master\keywords.txt
+		libraries\TinyGPS-master\TinyGPS.cpp = libraries\TinyGPS-master\TinyGPS.cpp
+		libraries\TinyGPS-master\TinyGPS.h = libraries\TinyGPS-master\TinyGPS.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{413FF686-9FCE-4AA5-BD99-D9AF5D3F3AC0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OzOLED", "OzOLED", "{CC12B766-008D-49FD-B55C-378C99A389A5}"
+	ProjectSection(SolutionItems) = preProject
+		libraries\OzOLED\license.txt = libraries\OzOLED\license.txt
+		libraries\OzOLED\OzOLED.cpp = libraries\OzOLED\OzOLED.cpp
+		libraries\OzOLED\OzOLED.h = libraries\OzOLED\OzOLED.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{B5D732F4-EC19-4834-A96B-906C88FE0418}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "bmp180", "bmp180", "{BC3A7155-0715-415A-838B-28C6A94C0670}"
+	ProjectSection(SolutionItems) = preProject
+		libraries\bmp180\BMP180.cpp = libraries\bmp180\BMP180.cpp
+		libraries\bmp180\BMP180.h = libraries\bmp180\BMP180.h
+		libraries\bmp180\keywords.txt = libraries\bmp180\keywords.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BMP180_Example", "BMP180_Example", "{9936BE87-BCEF-4926-A61A-34BE6DE95EBC}"
+	ProjectSection(SolutionItems) = preProject
+		libraries\bmp180\BMP180_Example\BMP180_Example.ino = libraries\bmp180\BMP180_Example\BMP180_Example.ino
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "simple_test", "simple_test", "{9BE3F304-9FC1-44C8-8EB9-3D05006422C4}"
+	ProjectSection(SolutionItems) = preProject
+		libraries\TinyGPS-master\examples\simple_test\simple_test.ino = libraries\TinyGPS-master\examples\simple_test\simple_test.ino
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "static_test", "static_test", "{E0C98843-BD50-401C-9A21-B9242A65DB68}"
+	ProjectSection(SolutionItems) = preProject
+		libraries\TinyGPS-master\examples\static_test\static_test.ino = libraries\TinyGPS-master\examples\static_test\static_test.ino
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test_with_gps_device", "test_with_gps_device", "{13DE14F1-0273-4B03-8D4B-81E4CDDBBADC}"
+	ProjectSection(SolutionItems) = preProject
+		libraries\TinyGPS-master\examples\test_with_gps_device\test_with_gps_device.ino = libraries\TinyGPS-master\examples\test_with_gps_device\test_with_gps_device.ino
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OLED_Bitmap_Inverse_Display", "OLED_Bitmap_Inverse_Display", "{DF72482F-88FA-425F-BB47-5468BBDC5827}"
+	ProjectSection(SolutionItems) = preProject
+		libraries\OzOLED\examples\OLED_Bitmap_Inverse_Display\OLED_Bitmap_Inverse_Display.ino = libraries\OzOLED\examples\OLED_Bitmap_Inverse_Display\OLED_Bitmap_Inverse_Display.ino
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OLED_Brightness_Control", "OLED_Brightness_Control", "{F6A60A9A-8121-40CC-88D3-31A814CC2561}"
+	ProjectSection(SolutionItems) = preProject
+		libraries\OzOLED\examples\OLED_Brightness_Control\OLED_Brightness_Control.ino = libraries\OzOLED\examples\OLED_Brightness_Control\OLED_Brightness_Control.ino
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OLED_Draw_Bitmap", "OLED_Draw_Bitmap", "{4FA4FEE0-D1DF-4ACD-98FF-84F6302A83B7}"
+	ProjectSection(SolutionItems) = preProject
+		libraries\OzOLED\examples\OLED_Draw_Bitmap\OLED_Draw_Bitmap.ino = libraries\OzOLED\examples\OLED_Draw_Bitmap\OLED_Draw_Bitmap.ino
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OLED_Hello_World", "OLED_Hello_World", "{6E932843-1831-4300-BBEE-8D8E2A8DAFB3}"
+	ProjectSection(SolutionItems) = preProject
+		libraries\OzOLED\examples\OLED_Hello_World\OLED_Hello_World.ino = libraries\OzOLED\examples\OLED_Hello_World\OLED_Hello_World.ino
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OLED_Horizontal_Addressing_Mode", "OLED_Horizontal_Addressing_Mode", "{277A531A-C012-485A-BA08-228B975B78F8}"
+	ProjectSection(SolutionItems) = preProject
+		libraries\OzOLED\examples\OLED_Horizontal_Addressing_Mode\OLED_Horizontal_Addressing_Mode.ino = libraries\OzOLED\examples\OLED_Horizontal_Addressing_Mode\OLED_Horizontal_Addressing_Mode.ino
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OLED_Inverse_Display", "OLED_Inverse_Display", "{D35B7DCE-2CF1-48DE-852D-E8EF006B58E4}"
+	ProjectSection(SolutionItems) = preProject
+		libraries\OzOLED\examples\OLED_Inverse_Display\OLED_Inverse_Display.ino = libraries\OzOLED\examples\OLED_Inverse_Display\OLED_Inverse_Display.ino
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OLED_PrintNumbers", "OLED_PrintNumbers", "{208E105A-0ECA-4DCB-A4FC-24793B63E442}"
+	ProjectSection(SolutionItems) = preProject
+		libraries\OzOLED\examples\OLED_PrintNumbers\OLED_PrintNumbers.ino = libraries\OzOLED\examples\OLED_PrintNumbers\OLED_PrintNumbers.ino
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OLED_Scroll_Left", "OLED_Scroll_Left", "{8ED56394-1CAE-4759-B30C-9894B2BA6C39}"
+	ProjectSection(SolutionItems) = preProject
+		libraries\OzOLED\examples\OLED_Scroll_Left\OLED_Scroll_Left.ino = libraries\OzOLED\examples\OLED_Scroll_Left\OLED_Scroll_Left.ino
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OLED_Scroll_Right", "OLED_Scroll_Right", "{02AEBBE5-4FE0-4367-87FF-BFC45B3B4593}"
+	ProjectSection(SolutionItems) = preProject
+		libraries\OzOLED\examples\OLED_Scroll_Right\OLED_Scroll_Right.ino = libraries\OzOLED\examples\OLED_Scroll_Right\OLED_Scroll_Right.ino
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OLED_Z_Display_Driver_Test_Suite", "OLED_Z_Display_Driver_Test_Suite", "{81257A24-3068-4AF4-8E57-F5DA7154B821}"
+	ProjectSection(SolutionItems) = preProject
+		libraries\OzOLED\examples\OLED_Z_Display_Driver_Test_Suite\OLED_Z_Display_Driver_Test_Suite.ino = libraries\OzOLED\examples\OLED_Z_Display_Driver_Test_Suite\OLED_Z_Display_Driver_Test_Suite.ino
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.ActiveCfg = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.Build.0 = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.ActiveCfg = Release|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7ECD0BF6-1117-4EEA-8E67-44922D100C10} = {A96FFD53-4F63-45AE-AEC7-E2D4A9A0F306}
+		{413FF686-9FCE-4AA5-BD99-D9AF5D3F3AC0} = {7ECD0BF6-1117-4EEA-8E67-44922D100C10}
+		{CC12B766-008D-49FD-B55C-378C99A389A5} = {A96FFD53-4F63-45AE-AEC7-E2D4A9A0F306}
+		{B5D732F4-EC19-4834-A96B-906C88FE0418} = {CC12B766-008D-49FD-B55C-378C99A389A5}
+		{BC3A7155-0715-415A-838B-28C6A94C0670} = {A96FFD53-4F63-45AE-AEC7-E2D4A9A0F306}
+		{9936BE87-BCEF-4926-A61A-34BE6DE95EBC} = {BC3A7155-0715-415A-838B-28C6A94C0670}
+		{9BE3F304-9FC1-44C8-8EB9-3D05006422C4} = {413FF686-9FCE-4AA5-BD99-D9AF5D3F3AC0}
+		{E0C98843-BD50-401C-9A21-B9242A65DB68} = {413FF686-9FCE-4AA5-BD99-D9AF5D3F3AC0}
+		{13DE14F1-0273-4B03-8D4B-81E4CDDBBADC} = {413FF686-9FCE-4AA5-BD99-D9AF5D3F3AC0}
+		{DF72482F-88FA-425F-BB47-5468BBDC5827} = {B5D732F4-EC19-4834-A96B-906C88FE0418}
+		{F6A60A9A-8121-40CC-88D3-31A814CC2561} = {B5D732F4-EC19-4834-A96B-906C88FE0418}
+		{4FA4FEE0-D1DF-4ACD-98FF-84F6302A83B7} = {B5D732F4-EC19-4834-A96B-906C88FE0418}
+		{6E932843-1831-4300-BBEE-8D8E2A8DAFB3} = {B5D732F4-EC19-4834-A96B-906C88FE0418}
+		{277A531A-C012-485A-BA08-228B975B78F8} = {B5D732F4-EC19-4834-A96B-906C88FE0418}
+		{D35B7DCE-2CF1-48DE-852D-E8EF006B58E4} = {B5D732F4-EC19-4834-A96B-906C88FE0418}
+		{208E105A-0ECA-4DCB-A4FC-24793B63E442} = {B5D732F4-EC19-4834-A96B-906C88FE0418}
+		{8ED56394-1CAE-4759-B30C-9894B2BA6C39} = {B5D732F4-EC19-4834-A96B-906C88FE0418}
+		{02AEBBE5-4FE0-4367-87FF-BFC45B3B4593} = {B5D732F4-EC19-4834-A96B-906C88FE0418}
+		{81257A24-3068-4AF4-8E57-F5DA7154B821} = {B5D732F4-EC19-4834-A96B-906C88FE0418}
+	EndGlobalSection
+EndGlobal
